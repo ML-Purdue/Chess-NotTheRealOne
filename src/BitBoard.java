@@ -137,7 +137,7 @@ public class BitBoard {
             long result = 0;
             for (int i = 0; i < 8; i++) {
                 int b = i * 8;
-                int rank = (int) ((bits << b) & 0xFF) >> -files;
+                int rank = (int) ((bits >> b) & 0xFF) << -files;
                 result |= (rank << b);
             }
             return new BitBoard(result);
