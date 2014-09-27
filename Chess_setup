@@ -1,0 +1,58 @@
+
+
+Board
+	int size
+	
+
+
+
+Piece (abstract)
+	int xloc
+	int yloc
+	int team
+	
+	void move
+
+	
+
+		Pawn
+		Rook
+		Knight
+		Queen
+		King
+		Bishop
+	
+Player
+
+	int team
+	
+		Human
+		AI
+
+
+UI
+	highlight all available moves for given piece
+	know when game is done
+
+
+Utility
+
+
+	check for check
+	
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
