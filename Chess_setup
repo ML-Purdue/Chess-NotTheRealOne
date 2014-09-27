@@ -11,11 +11,16 @@ Piece (abstract)
 	int yloc
 	int team
 	
-	void move
+	getPossibleMoves()	
 
-	
+
+	void move (also handles killing)
+
+		
 
 		Pawn
+			(extra kill logic)
+		
 		Rook
 		Knight
 		Queen
@@ -37,8 +42,9 @@ UI
 
 Utility
 
-
+	check for checkmate (do both teams still have a king)
 	check for check
+	check for stalemate
 	
 	
 
