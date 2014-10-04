@@ -1,0 +1,41 @@
+Location
+	int x
+	int y
+
+Move
+	Location from
+	Location to
+	boolean attack
+
+Piece
+	getLocation()
+	getPossibleMoves(Board b)
+	getTeam()
+
+Team
+	ArrayList<Piece> pieces
+	int teamID
+
+
+Tile
+	Location loc
+	Piece p
+	
+Board
+	getTiles()
+	isValidMove(Piece, Location)
+	getTile(x, y)
+	getTeamPieces(Team team)
+
+
+Engine
+	UI access methods
+
+Player
+	getMove(Board)
+	getTeam()
+
+
+
+
+
