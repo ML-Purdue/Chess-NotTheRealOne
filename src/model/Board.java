@@ -1,3 +1,4 @@
+package model;
 
 public class Board {
 	final int size = 64;	
